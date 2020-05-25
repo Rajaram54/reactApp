@@ -1,0 +1,38 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+      "outDir": "./dist/out-tsc",
+      "sourceMap": true,
+      "declaration": false,
+      "moduleResolution": "node",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "target": "es2015",
+      "jsx": "preserve",
+      "typeRoots": [
+        "../node_modules/@types",
+        "../@types"
+      ],
+      "lib": [
+        "es2015",
+        "dom"
+      ],
+      "noImplicitAny": false,
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "module": "esnext",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "noStrictGenericChecks": true,
+      "strictNullChecks": false
+    },
+    "include": [
+      "src"
+    ]
+  }
+  
